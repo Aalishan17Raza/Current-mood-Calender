@@ -14,18 +14,32 @@
 
 body{
     font-family: 'Muli';
+    line-height: 1;
 }
 
 .topPart{
     text-align: center;
 }
 
+#cal-title-sub{
+    margin-bottom: 30px;
+}
+
+span{
+    display: inline-block;
+    margin-right: 13px;
+}
+
 i{
     cursor: pointer;
 }
 
-#mood-1{color: var(--mood-color-1);}
-#mood-2{color: var(--mood-color-2);}
-#mood-3{color: var(--mood-color-3);}
-#mood-4{color: var(--mood-color-4);}
-#mood-5{color: var(--mood-color-5);}
+i#mood-1{color: var(--mood-color-1);}
+i#mood-2{color: var(--mood-color-2);}
+i#mood-3{color: var(--mood-color-3);}
+i#mood-4{color: var(--mood-color-4);}
+i#mood-5{color: var(--mood-color-5);}
+
+.i-selected{
+    color: white !important;
+}
