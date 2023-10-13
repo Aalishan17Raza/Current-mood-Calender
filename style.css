@@ -5,11 +5,11 @@
 }
 
 :root {
-	--mood-color-1: #2d6b5f;
-	--mood-color-2: #72e3a6;
-	--mood-color-3: #dff4c7;
-	--mood-color-4: #edbf98;
-	--mood-color-5: #ea3d36;
+	--mood-1: #2d6b5f;
+	--mood-2: #72e3a6;
+	--mood-3: #dff4c7;
+	--mood-4: #edbf98;
+	--mood-5: #ea3d36;
 }
 
 body{
@@ -22,24 +22,23 @@ body{
 }
 
 #cal-title-sub{
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 span{
     display: inline-block;
     margin-right: 13px;
+    border-radius: 50%;
 }
 
 i{
     cursor: pointer;
+    border-radius: 50%;
 }
 
-i#mood-1{color: var(--mood-color-1);}
-i#mood-2{color: var(--mood-color-2);}
-i#mood-3{color: var(--mood-color-3);}
-i#mood-4{color: var(--mood-color-4);}
-i#mood-5{color: var(--mood-color-5);}
+i#mood-1{color: var(--mood-1);}
+i#mood-2{color: var(--mood-2);}
+i#mood-3{color: var(--mood-3);}
+i#mood-4{color: var(--mood-4);}
+i#mood-5{color: var(--mood-5);}
 
-.i-selected{
-    color: white !important;
-}
