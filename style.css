@@ -25,11 +25,7 @@ body {
 }
 
 #cal-title-sub {
-    margin-bottom: 25px;
-}
-
-div #moods {
-    margin-top: 20px;
+    margin-bottom: 13px;
 }
 
 span {
@@ -45,7 +41,7 @@ i {
 
 th {
     font-weight: 500;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 td {
@@ -69,12 +65,13 @@ td div {
 caption{
     font-weight: bold;
     font-size: 1.2rem;
+    margin-bottom: 3px;
 }
 td,
 th {
     /* border: 1px solid #999; */
     height: 30px;
-    width: 38px;
+    width: 40px;
 }
 
 i#mood-1 {
